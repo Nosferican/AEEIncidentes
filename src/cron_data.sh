@@ -1,4 +1,4 @@
-FILEPATH=/github/workspace/data`date +%Y-%m-%dT%H.jsonl`
+FILEPATH=`date +%Y-%m-%dT%H.jsonl`
 INPUT="/github/workspace/data/sectors.txt"
 while IFS=: read -r sector
 do
