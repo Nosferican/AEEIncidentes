@@ -1,14 +1,14 @@
 name: CRON
 on:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "40 * * * *"
 
 jobs:
   ci:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - run: bash /github/workspace/src/cron_data.sh
+      - run: bash src/cron_data.sh
       - uses: actions/upload-artifact@v2
         with:
           name: outages
