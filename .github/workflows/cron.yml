@@ -11,8 +11,7 @@ jobs:
         os: [ubuntu-20.04]
     steps:
       - uses: actions/checkout@v2
-      - name: cron_data.sh
-          - run: bash /github/workspace/src/cron_data.sh
+      - run: bash /github/workspace/src/cron_data.sh
       - uses: actions/upload-artifact@v2
         with:
           name: outages
