@@ -1,0 +1,11 @@
+name = "AEEIncidentes"
+uuid = "67865bac-da87-4e48-87c8-9f363fb01cf0"
+authors = ["José Bayoán Santiago Calderón <jbs3hp@virginia.edu>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+LibPQ = "194296ae-ab2e-5f79-8cd4-7183a0a5a0d1"
+TimeZones = "f269a46b-ccf7-5d73-abea-4c690281aa53"
